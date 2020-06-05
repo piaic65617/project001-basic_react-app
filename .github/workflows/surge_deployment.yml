@@ -37,4 +37,4 @@ jobs:
       run: npm install --global surge
   # Runs a set of commands using the runners shell
     - name: Deploy to surge
-      run: surge ./build project001.surge.su ${{ secrets.SURGE_TOKEN}}
+      run: surge ./build project001_2098.surge.su ${{ secrets.SURGE_TOKEN}}
